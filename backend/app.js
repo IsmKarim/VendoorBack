@@ -12,7 +12,7 @@ const orderRoutes = require('./routes/order');
 
 const app = express();
 
-mongoose.connect("mongodb://localhost:27017/example")
+mongoose.connect("mongodb://<dbuser>:<dbpassword>@ds125871.mlab.com:25871/heroku_rbr920sq")
   .then(() => {
     console.log("Connected to database");
   })
