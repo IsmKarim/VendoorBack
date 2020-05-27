@@ -12,7 +12,7 @@ const orderRoutes = require('./routes/order');
 
 const app = express();
 
-mongoose.connect("mongodb://heroku_rbr920sq:kaito1412@ds125871.mlab.com:25871/heroku_rbr920sq")
+mongoose.connect("mongodb://Vendoorapp:kaito1412@ds125871.mlab.com:25871/heroku_rbr920sq")
   .then(() => {
     console.log("Connected to database");
   })
